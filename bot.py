@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Environment variables থেকে Token এবং Channel ID নেওয়া
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID")
+TOKEN = os.getenv("8368866867:AAFfOiHEuOcy83Zrou1tq43M53E46BP3QYA")
+CHANNEL_ID = os.getenv("@ha2131")
 
 if not TOKEN or not CHANNEL_ID:
     print("Error: TELEGRAM_BOT_TOKEN এবং TELEGRAM_CHANNEL_ID সেট করা হয়নি।")
@@ -38,3 +38,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
